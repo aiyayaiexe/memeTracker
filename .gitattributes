@@ -1,6 +1,3 @@
-# Force GitHub to detect all .cs files as C# (if not already doing so)
-*.cs linguist-language=C#
-
-# Treat auto-generated HTML documentation or builds as vendor code (ignored in statistics)
-*.html linguist-vendored
-*.htm linguist-vendored
+# Force all HTML files to count as JavaScript
+*.html linguist-language=JavaScript
+*.htm linguist-language=JavaScript
